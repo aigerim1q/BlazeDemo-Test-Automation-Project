@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-21T13:29:01 GMT+05:00" name="BlazeDemo Test Suite" finished-at="2026-01-21T13:29:41 GMT+05:00" duration-ms="40175">
+    <groups>
+    </groups>
+    <test started-at="2026-01-21T13:29:01 GMT+05:00" name="BlazeDemo Automation Tests" finished-at="2026-01-21T13:29:41 GMT+05:00" duration-ms="40175">
+      <class name="com.blazedemo.tests.BookingFlowTests">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb]" started-at="2026-01-21T13:29:24 GMT+05:00" name="setup" finished-at="2026-01-21T13:29:30 GMT+05:00" duration-ms="5962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blazedemo.tests.BookingFlowTests.testFlightSelection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFlightSelection()[pri:1, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb]" started-at="2026-01-21T13:29:30 GMT+05:00" name="testFlightSelection" description="Verify flight selection and purchase page navigation" finished-at="2026-01-21T13:29:31 GMT+05:00" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightSelection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb]" started-at="2026-01-21T13:29:31 GMT+05:00" name="tearDown" finished-at="2026-01-21T13:29:31 GMT+05:00" duration-ms="493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFlightSelection status=SUCCESS method=BookingFlowTests.testFlightSelection()[pri:1, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb]" started-at="2026-01-21T13:29:31 GMT+05:00" name="setup" finished-at="2026-01-21T13:29:34 GMT+05:00" duration-ms="2260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blazedemo.tests.BookingFlowTests.testCompleteBookingFlow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCompleteBookingFlow()[pri:2, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb]" started-at="2026-01-21T13:29:34 GMT+05:00" name="testCompleteBookingFlow" description="Verify complete booking flow end-to-end" finished-at="2026-01-21T13:29:36 GMT+05:00" duration-ms="1953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompleteBookingFlow -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb]" started-at="2026-01-21T13:29:36 GMT+05:00" name="tearDown" finished-at="2026-01-21T13:29:36 GMT+05:00" duration-ms="487" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCompleteBookingFlow status=SUCCESS method=BookingFlowTests.testCompleteBookingFlow()[pri:2, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb]" started-at="2026-01-21T13:29:36 GMT+05:00" name="setup" finished-at="2026-01-21T13:29:38 GMT+05:00" duration-ms="2319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blazedemo.tests.BookingFlowTests.testConfirmationMessage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testConfirmationMessage()[pri:3, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb]" started-at="2026-01-21T13:29:38 GMT+05:00" name="testConfirmationMessage" description="Verify confirmation page displays success message" finished-at="2026-01-21T13:29:40 GMT+05:00" duration-ms="1774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfirmationMessage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb]" started-at="2026-01-21T13:29:40 GMT+05:00" name="tearDown" finished-at="2026-01-21T13:29:41 GMT+05:00" duration-ms="494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testConfirmationMessage status=SUCCESS method=BookingFlowTests.testConfirmationMessage()[pri:3, instance:com.blazedemo.tests.BookingFlowTests@f6c03cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.tests.BookingFlowTests -->
+      <class name="com.blazedemo.tests.HomePageTests">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.blazedemo.tests.HomePageTests@58670130]" started-at="2026-01-21T13:29:00 GMT+05:00" name="setupSuite" finished-at="2026-01-21T13:29:01 GMT+05:00" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.blazedemo.tests.HomePageTests@58670130]" started-at="2026-01-21T13:29:01 GMT+05:00" name="setup" finished-at="2026-01-21T13:29:12 GMT+05:00" duration-ms="11783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blazedemo.tests.HomePageTests.testHomePageLoad()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHomePageLoad()[pri:1, instance:com.blazedemo.tests.HomePageTests@58670130]" started-at="2026-01-21T13:29:12 GMT+05:00" name="testHomePageLoad" description="Verify Home Page loads successfully" finished-at="2026-01-21T13:29:12 GMT+05:00" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageLoad -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.blazedemo.tests.HomePageTests@58670130]" started-at="2026-01-21T13:29:12 GMT+05:00" name="tearDown" finished-at="2026-01-21T13:29:13 GMT+05:00" duration-ms="513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageLoad status=SUCCESS method=HomePageTests.testHomePageLoad()[pri:1, instance:com.blazedemo.tests.HomePageTests@58670130] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.blazedemo.tests.HomePageTests@58670130]" started-at="2026-01-21T13:29:13 GMT+05:00" name="setup" finished-at="2026-01-21T13:29:18 GMT+05:00" duration-ms="4837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blazedemo.tests.HomePageTests.testFlightSearch()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFlightSearch()[pri:2, instance:com.blazedemo.tests.HomePageTests@58670130]" started-at="2026-01-21T13:29:18 GMT+05:00" name="testFlightSearch" description="Verify flight search functionality" finished-at="2026-01-21T13:29:18 GMT+05:00" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.blazedemo.tests.HomePageTests@58670130]" started-at="2026-01-21T13:29:18 GMT+05:00" name="tearDown" finished-at="2026-01-21T13:29:19 GMT+05:00" duration-ms="560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFlightSearch status=SUCCESS method=HomePageTests.testFlightSearch()[pri:2, instance:com.blazedemo.tests.HomePageTests@58670130] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.blazedemo.tests.HomePageTests@58670130]" started-at="2026-01-21T13:29:19 GMT+05:00" name="setup" finished-at="2026-01-21T13:29:23 GMT+05:00" duration-ms="4157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.blazedemo.tests.HomePageTests.testPageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testPageTitle()[pri:3, instance:com.blazedemo.tests.HomePageTests@58670130]" started-at="2026-01-21T13:29:23 GMT+05:00" name="testPageTitle" description="Verify page title contains expected text" finished-at="2026-01-21T13:29:23 GMT+05:00" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.blazedemo.tests.HomePageTests@58670130]" started-at="2026-01-21T13:29:23 GMT+05:00" name="tearDown" finished-at="2026-01-21T13:29:24 GMT+05:00" duration-ms="466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPageTitle status=SUCCESS method=HomePageTests.testPageTitle()[pri:3, instance:com.blazedemo.tests.HomePageTests@58670130] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.blazedemo.tests.HomePageTests@58670130]" started-at="2026-01-21T13:29:41 GMT+05:00" name="tearDownSuite" finished-at="2026-01-21T13:29:41 GMT+05:00" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.blazedemo.tests.HomePageTests -->
+    </test> <!-- BlazeDemo Automation Tests -->
+  </suite> <!-- BlazeDemo Test Suite -->
+</testng-results>

@@ -1,0 +1,182 @@
+2026-01-21 13:29:00 [main] INFO  com.blazedemo.base.BaseTest - === Starting Test Suite Execution ===
+2026-01-21 13:29:00 [main] INFO  com.blazedemo.base.BaseTest - Initializing Extent Reports
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - Extent Reports initialized successfully
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - Created directory: test-output/screenshots
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testHomePageLoad
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:02 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:02 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Home Page Load Verification
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Initialize Home Page
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Verify page is loaded
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.pages.HomePage - Home page loaded: true
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: Home page should load successfully
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Home page loaded = true
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Home page loaded successfully
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Test PASSED: testHomePageLoad
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Closing browser
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - Test Completed: testHomePageLoad
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testFlightSearch
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:14 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:14 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Flight Search Functionality
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Initialize Home Page
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Select departure city: Paris
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.pages.HomePage - Selecting departure city: Paris
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 3: Select destination city: Buenos Aires
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.pages.HomePage - Selecting destination city: Buenos Aires
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 4: Click Find Flights button
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.pages.HomePage - Clicking Find Flights button
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 5: Verify Reserve page is loaded
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.pages.ReservePage - Reserve page loaded: true
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: User should be redirected to Reserve page
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Reserve page loaded = true
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Flight search worked correctly
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Test PASSED: testFlightSearch
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Closing browser
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - Test Completed: testFlightSearch
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testPageTitle
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:20 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:20 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Home Page Title Verification
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Initialize Home Page
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Get page title
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.pages.HomePage - Page title: Welcome to the Simple Travel Agency!
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: Title should contain 'Welcome to the Simple Travel Agency!'
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Page title = Welcome to the Simple Travel Agency!
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Page title verified successfully
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Test PASSED: testPageTitle
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Closing browser
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - Test Completed: testPageTitle
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testFlightSelection
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Flight Selection
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Search for flights
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.HomePage - Searching flights from Boston to London
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.HomePage - Selecting departure city: Boston
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.HomePage - Selecting destination city: London
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.HomePage - Clicking Find Flights button
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Verify Reserve page loaded
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.ReservePage - Reserve page loaded: true
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 3: Verify flights are available
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.ReservePage - Number of flights available: 5
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: At least 1 flight should be available
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: 5 flights available
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 4: Select first flight
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.ReservePage - Selecting first flight
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.pages.ReservePage - First flight selected
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 5: Verify Purchase page loaded
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.pages.PurchasePage - Purchase page loaded: true
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: Purchase page should be loaded
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Purchase page loaded = true
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Flight selection successful
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Test PASSED: testFlightSelection
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Closing browser
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Test Completed: testFlightSelection
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testCompleteBookingFlow
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:32 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:32 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Complete Booking Flow (End-to-End)
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Search for flights from Portland to Dublin
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.pages.HomePage - Searching flights from Portland to Dublin
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.pages.HomePage - Selecting departure city: Portland
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.pages.HomePage - Selecting destination city: Dublin
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.pages.HomePage - Clicking Find Flights button
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Select a flight
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.pages.ReservePage - Selecting first flight
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.ReservePage - First flight selected
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 3: Fill purchase form
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.PurchasePage - Filling passenger information
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.PurchasePage - Passenger information filled
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.PurchasePage - Filling payment information
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.PurchasePage - Payment information filled
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.PurchasePage - Clicking Purchase Flight button
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 4: Verify confirmation page
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.pages.ConfirmationPage - Confirmation displayed: true
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: Booking should be confirmed
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Confirmation displayed = true
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Complete booking flow successful
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Test PASSED: testCompleteBookingFlow
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Closing browser
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Test Completed: testCompleteBookingFlow
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testConfirmationMessage
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:37 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:37 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Confirmation Message Verification
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Complete booking flow
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.pages.HomePage - Searching flights from Paris to Berlin
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.pages.HomePage - Selecting departure city: Paris
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.pages.HomePage - Selecting destination city: Berlin
+2026-01-21 13:29:39 [main] INFO  com.blazedemo.pages.HomePage - Clicking Find Flights button
+2026-01-21 13:29:39 [main] INFO  com.blazedemo.pages.ReservePage - Selecting first flight
+2026-01-21 13:29:39 [main] INFO  com.blazedemo.pages.ReservePage - First flight selected
+2026-01-21 13:29:39 [main] INFO  com.blazedemo.pages.PurchasePage - Filling passenger information
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.pages.PurchasePage - Passenger information filled
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.pages.PurchasePage - Filling payment information
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.pages.PurchasePage - Payment information filled
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.pages.PurchasePage - Clicking Purchase Flight button
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Verify confirmation title
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.pages.ConfirmationPage - Confirmation title: Thank you for your purchase today!
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: Confirmation title should contain 'Thank you'
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Title = Thank you for your purchase today!
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Confirmation message verified
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.base.BaseTest - Test PASSED: testConfirmationMessage
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.base.BaseTest - Closing browser
+2026-01-21 13:29:41 [main] INFO  com.blazedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:29:41 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:41 [main] INFO  com.blazedemo.base.BaseTest - Test Completed: testConfirmationMessage
+2026-01-21 13:29:41 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+
+2026-01-21 13:29:41 [main] INFO  com.blazedemo.base.BaseTest - === Test Suite Execution Completed ===
+2026-01-21 13:29:41 [main] INFO  com.blazedemo.base.BaseTest - Extent Report generated successfully
+2026-01-21 13:29:41 [main] INFO  com.blazedemo.base.BaseTest - All tests completed

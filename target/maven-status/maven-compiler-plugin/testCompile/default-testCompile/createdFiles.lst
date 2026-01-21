@@ -1,0 +1,7 @@
+com\blazedemo\pages\ConfirmationPage.class
+com\blazedemo\pages\PurchasePage.class
+com\blazedemo\tests\BookingFlowTests.class
+com\blazedemo\pages\ReservePage.class
+com\blazedemo\base\BaseTest.class
+com\blazedemo\tests\HomePageTests.class
+com\blazedemo\pages\HomePage.class

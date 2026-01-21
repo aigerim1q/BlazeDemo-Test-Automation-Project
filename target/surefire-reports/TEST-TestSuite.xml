@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="41.456" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Asus\Downloads\blazedemo-automation-final\target\test-classes;C:\Users\Asus\Downloads\blazedemo-automation-final\target\classes;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\Asus\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Asus\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Asus\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Asus\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Asus\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Asus\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Asus\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Asus\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Asus\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Asus\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-core\2.21.1\log4j-core-2.21.1.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Asus\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Asus\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Asus\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Asus\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Asus\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Asus\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Asus\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="GMT+05:00"/>
+    <property name="user.country.format" value="KZ"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.29_7\bin"/>
+    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire16867727735973380412\surefirebooter-20260121132859793_3.jar C:\Users\Asus\AppData\Local\Temp\surefire16867727735973380412 2026-01-21T13-28-59_524-jvmRun1 surefire-20260121132859793_1tmp surefire_0-20260121132859793_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Asus\Downloads\blazedemo-automation-final\target\test-classes;C:\Users\Asus\Downloads\blazedemo-automation-final\target\classes;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-java\4.16.1\selenium-java-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-api\4.16.1\selenium-api-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.16.1\selenium-chrome-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.16.1\selenium-chromium-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-json\4.16.1\selenium-json-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.16.1\selenium-manager-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.16.1\selenium-devtools-v118-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.16.1\selenium-devtools-v119-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.16.1\selenium-devtools-v120-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.16.1\selenium-devtools-v85-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.16.1\selenium-edge-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.16.1\selenium-firefox-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-http\4.16.1\selenium-http-4.16.1.jar;C:\Users\Asus\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.16.1\selenium-ie-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.16.1\selenium-remote-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\Asus\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Asus\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Asus\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Asus\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\Asus\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\Asus\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\Asus\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-os\4.16.1\selenium-os-4.16.1.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.16.1\selenium-safari-driver-4.16.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-support\4.16.1\selenium-support-4.16.1.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Asus\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Asus\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-core\2.21.1\log4j-core-2.21.1.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Asus\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Asus\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Asus\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Asus\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Asus\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Asus\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Asus\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Asus"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.29_7"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Asus\Downloads\blazedemo-automation-final"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire16867727735973380412\surefirebooter-20260121132859793_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.29+7-LTS"/>
+    <property name="user.name" value="Toma"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.29.7.1"/>
+    <property name="localRepository" value="C:\Users\Asus\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Asus\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.29"/>
+    <property name="user.dir" value="C:\Users\Asus\Downloads\blazedemo-automation-final"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="kk"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.29_7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Amazon Corretto\jdk11.0.29_7\bin;C:\Program Files\MongoDB\mongosh-2.3.8-win32-x64\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PostgreSQL\17\bin;C:\Users\Asus\Downloads\sqlite-tools-win-x64-3500200;;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.12\bin;C:\Users\Asus\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Asus\AppData\Local\Programs\Python\Python310\;C:\Users\Asus\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Asus\AppData\Local\Programs\Python\Python312\;C:\Users\Asus\.cargo\bin;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;C:\Users\Asus\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Asus\AppData\Roaming\npm;C:\Users\Asus\Downloads\solana-release-x86_64-pc-windows-msvc\solana-release\bin;C:\Users\Asus\Downloads\protoc-30.2-win64\bin;C:\Users\Asus\Downloads\terraform_1.11.4_windows_amd64;C:\Users\Asus\go\bin;C:\Users\Asus\AppData\Local\Programs\Ollama;C:\Users\Asus\AppData\Local\Programs\Python\Python311;C:\Users\Asus\Downloads\sqlite-tools-win-x64-3500200;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.29+7-LTS"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testHomePageLoad" classname="com.blazedemo.tests.HomePageTests" time="0.046">
+    <system-out><![CDATA[2026-01-21 13:29:00 [main] INFO  com.blazedemo.base.BaseTest - === Starting Test Suite Execution ===
+2026-01-21 13:29:00 [main] INFO  com.blazedemo.base.BaseTest - Initializing Extent Reports
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - Extent Reports initialized successfully
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - Created directory: test-output/screenshots
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testHomePageLoad
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:01 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:02 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:02 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Home Page Load Verification
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Initialize Home Page
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Verify page is loaded
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.pages.HomePage - Home page loaded: true
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: Home page should load successfully
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Home page loaded = true
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Home page loaded successfully
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+?а?. 21, 2026 1:29:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+?а?. 21, 2026 1:29:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testFlightSearch" classname="com.blazedemo.tests.HomePageTests" time="0.696">
+    <system-out><![CDATA[2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Test PASSED: testHomePageLoad
+2026-01-21 13:29:12 [main] INFO  com.blazedemo.base.BaseTest - Closing browser
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - Test Completed: testHomePageLoad
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testFlightSearch
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:13 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:14 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:14 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Flight Search Functionality
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Initialize Home Page
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Select departure city: Paris
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.pages.HomePage - Selecting departure city: Paris
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 3: Select destination city: Buenos Aires
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.pages.HomePage - Selecting destination city: Buenos Aires
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 4: Click Find Flights button
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.pages.HomePage - Clicking Find Flights button
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 5: Verify Reserve page is loaded
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.pages.ReservePage - Reserve page loaded: true
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: User should be redirected to Reserve page
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Reserve page loaded = true
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Flight search worked correctly
+]]></system-out>
+    <system-err><![CDATA[?а?. 21, 2026 1:29:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+?а?. 21, 2026 1:29:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testPageTitle" classname="com.blazedemo.tests.HomePageTests" time="0.032">
+    <system-out><![CDATA[2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Test PASSED: testFlightSearch
+2026-01-21 13:29:18 [main] INFO  com.blazedemo.base.BaseTest - Closing browser
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - Test Completed: testFlightSearch
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testPageTitle
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:19 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:20 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:20 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Home Page Title Verification
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Initialize Home Page
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Get page title
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.pages.HomePage - Page title: Welcome to the Simple Travel Agency!
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: Title should contain 'Welcome to the Simple Travel Agency!'
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Page title = Welcome to the Simple Travel Agency!
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Page title verified successfully
+]]></system-out>
+    <system-err><![CDATA[?а?. 21, 2026 1:29:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+?а?. 21, 2026 1:29:20 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testFlightSelection" classname="com.blazedemo.tests.BookingFlowTests" time="1.308">
+    <system-out><![CDATA[2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Test PASSED: testPageTitle
+2026-01-21 13:29:23 [main] INFO  com.blazedemo.base.BaseTest - Closing browser
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - Test Completed: testPageTitle
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testFlightSelection
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:24 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Flight Selection
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Search for flights
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.HomePage - Searching flights from Boston to London
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.HomePage - Selecting departure city: Boston
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.HomePage - Selecting destination city: London
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.HomePage - Clicking Find Flights button
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Verify Reserve page loaded
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.ReservePage - Reserve page loaded: true
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 3: Verify flights are available
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.ReservePage - Number of flights available: 5
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: At least 1 flight should be available
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: 5 flights available
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 4: Select first flight
+2026-01-21 13:29:30 [main] INFO  com.blazedemo.pages.ReservePage - Selecting first flight
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.pages.ReservePage - First flight selected
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 5: Verify Purchase page loaded
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.pages.PurchasePage - Purchase page loaded: true
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: Purchase page should be loaded
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Purchase page loaded = true
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Flight selection successful
+]]></system-out>
+    <system-err><![CDATA[?а?. 21, 2026 1:29:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+?а?. 21, 2026 1:29:24 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCompleteBookingFlow" classname="com.blazedemo.tests.BookingFlowTests" time="1.953">
+    <system-out><![CDATA[2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Test PASSED: testFlightSelection
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Closing browser
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Test Completed: testFlightSelection
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testCompleteBookingFlow
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:31 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:32 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:32 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Complete Booking Flow (End-to-End)
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Search for flights from Portland to Dublin
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.pages.HomePage - Searching flights from Portland to Dublin
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.pages.HomePage - Selecting departure city: Portland
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.pages.HomePage - Selecting destination city: Dublin
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.pages.HomePage - Clicking Find Flights button
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Select a flight
+2026-01-21 13:29:34 [main] INFO  com.blazedemo.pages.ReservePage - Selecting first flight
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.ReservePage - First flight selected
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 3: Fill purchase form
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.PurchasePage - Filling passenger information
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.PurchasePage - Passenger information filled
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.PurchasePage - Filling payment information
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.PurchasePage - Payment information filled
+2026-01-21 13:29:35 [main] INFO  com.blazedemo.pages.PurchasePage - Clicking Purchase Flight button
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 4: Verify confirmation page
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.pages.ConfirmationPage - Confirmation displayed: true
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: Booking should be confirmed
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Confirmation displayed = true
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Complete booking flow successful
+]]></system-out>
+    <system-err><![CDATA[?а?. 21, 2026 1:29:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+?а?. 21, 2026 1:29:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testConfirmationMessage" classname="com.blazedemo.tests.BookingFlowTests" time="1.774">
+    <system-out><![CDATA[2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Starting teardown process
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Test PASSED: testCompleteBookingFlow
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Closing browser
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Browser closed successfully
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Test Completed: testCompleteBookingFlow
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Starting Test: testConfirmationMessage
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - ========================================
+2026-01-21 13:29:36 [main] INFO  com.blazedemo.base.BaseTest - Setting up ChromeDriver
+2026-01-21 13:29:37 [main] INFO  com.blazedemo.base.BaseTest - WebDriver initialized successfully
+2026-01-21 13:29:37 [main] INFO  com.blazedemo.base.BaseTest - Navigating to BlazeDemo: https://blazedemo.com
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.base.BaseTest - Page loaded successfully
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Case: Confirmation Message Verification
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 1: Complete booking flow
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.pages.HomePage - Searching flights from Paris to Berlin
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.pages.HomePage - Selecting departure city: Paris
+2026-01-21 13:29:38 [main] INFO  com.blazedemo.pages.HomePage - Selecting destination city: Berlin
+2026-01-21 13:29:39 [main] INFO  com.blazedemo.pages.HomePage - Clicking Find Flights button
+2026-01-21 13:29:39 [main] INFO  com.blazedemo.pages.ReservePage - Selecting first flight
+2026-01-21 13:29:39 [main] INFO  com.blazedemo.pages.ReservePage - First flight selected
+2026-01-21 13:29:39 [main] INFO  com.blazedemo.pages.PurchasePage - Filling passenger information
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.pages.PurchasePage - Passenger information filled
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.pages.PurchasePage - Filling payment information
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.pages.PurchasePage - Payment information filled
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.pages.PurchasePage - Clicking Purchase Flight button
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.base.BaseTest - STEP: Step 2: Verify confirmation title
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.pages.ConfirmationPage - Confirmation title: Thank you for your purchase today!
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.base.BaseTest - Expected Result: Confirmation title should contain 'Thank you'
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.base.BaseTest - Actual Result: Title = Thank you for your purchase today!
+2026-01-21 13:29:40 [main] INFO  com.blazedemo.base.BaseTest - STEP: Test Passed: Confirmation message verified
+]]></system-out>
+    <system-err><![CDATA[?а?. 21, 2026 1:29:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+?а?. 21, 2026 1:29:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 143.0.7499.193. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>
